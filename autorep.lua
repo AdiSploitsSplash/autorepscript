@@ -42,7 +42,7 @@ if not game:GetService('ReplicatedStorage'):FindFirstChild('DefaultChatSystemCha
 DCSCE = game:GetService('ReplicatedStorage'):FindFirstChild('DefaultChatSystemChatEvents')
 if not autoreportcfg then
 getgenv().autoreportcfg = {
-    Webhook = 'https://discord.com/api/webhooks/880465978402689125/fDMo-uNhediUGErMW2T6x7CzzskJSOqOp8o6zmnamTExvV7d4v_R5C2oq_iI3ODKFV4H', 
+    Webhook = '', 
     autoMessage = {
        enabled = false,
        Message = '.',
